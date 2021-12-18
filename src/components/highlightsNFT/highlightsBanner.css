@@ -1,0 +1,92 @@
+.highlightsBanner {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 100%;
+    border-bottom: 1px solid #303032;
+}
+
+.highlightsBanner__title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 30px;
+    padding-left: 20px;
+    font-size: x-large;
+    color: #9147FF;
+    margin-bottom: 10px;
+}
+
+.highlightsBanner__main {
+    display: flex;
+    width: 100%;
+    flex: 1;
+    align-items: center ;
+}
+
+.highlightsBanner__extender {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #30303242;
+    height: 20px;
+}
+
+.highlightsBanner__extender:hover {
+    cursor: pointer;
+    background-color: #4C4C4F;
+}
+
+.highlightsBanner__video {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 8px;
+    flex: 3;
+}
+
+.highlightsBanner__videoFrame{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #303032;
+    width: 110px;
+    height: 80px;
+}
+
+.highlightsBanner__videoFrame>img {
+    width: 100%;
+    height: auto;
+    justify-self: center;
+}
+
+.highlightsBanner__videoFrame>i {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+.highlightsBanner__leaders {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 4
+}
+
+
+.highlightsBanner__leaders>div {
+    display: flex;
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+.highlightsBanner__leaders>div>div {
+    flex: 1;
+}
+
+.highlightsBanner__leaders>div>p {
+    margin-right: 20px;
+    font-size: medium;
+}

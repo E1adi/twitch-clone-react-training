@@ -1,0 +1,8 @@
+.streamingPlatform {
+    flex: 1;
+}
+
+.streamingPlatform__main {
+    display: flex;
+    justify-content: flex-start;
+}

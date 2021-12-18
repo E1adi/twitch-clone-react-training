@@ -1,0 +1,142 @@
+.profileBanner {
+    height: 130px;
+    border-top: 2px solid #303032;
+    display: flex;
+}
+
+.profileBanner__logo {
+    width: 7.2rem;
+}
+
+.profileBanner__info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.profileBanner__top {
+    display: flex;
+    align-items: flex-end;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.profileBanner__name {
+    font-size: large;
+    font-weight: 600;
+}
+
+.profileBanner___info--filler {
+    flex: 1;
+}
+
+.profileBanner__buttons {
+    display: flex;
+    width: auto;
+}
+
+.profileBanner__buttons>div>div>i {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.profileBanner__followButton,
+.profileBanner__subscribeButton {
+    display: flex;
+    height: 2rem;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 10px 3px 10px;
+    margin-right: 10px;
+    line-height: 2rem;
+}
+
+.profileBanner__followButton {
+    background-color: #9147FF;
+}
+
+.profileBanner__followButton:hover {
+    background-color: #772CE8;
+    cursor: pointer;
+}
+
+.profileBanner__subscribeButton {
+    background-color: #3E3E40;
+}
+
+.profileBanner__subscribeButton:hover {
+    background-color: #4C4C4F;
+    cursor: pointer;
+}
+
+.profileBanner__bottom {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.profileBanner__bottomLeft {
+    flex: 1;
+    height: 100%;
+}
+
+.profileBanner__bottomRight {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.profileBanner__bottomRight {
+    display: flex;
+}
+
+.profileBanner__bottomRightContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileBanner__bottomRightContainer>div {
+    display: flex;
+    margin-right: 10px;
+}
+
+.profileBanner__followersCount>*,
+.profileBanner__followersCount>*>* {
+    color: #F47D7B;
+    margin-right: 5px;
+}
+
+.profileBanner__bottomRightIconContainer {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.profileBanner__bottomRightIconContainer:hover {
+    cursor: pointer;
+    background-color: #3E3E40;
+}
+
+.profileBanner__streamTitle {
+    height: 100%;
+}
+
+.profileBanner__streamTitle>p {
+    font-size: medium;
+    font-weight: 600;
+}
+
+.profileBanner__tags>p {
+    color: #BF95FF;
+    margin-top: 10px;
+    font-size: medium;
+}

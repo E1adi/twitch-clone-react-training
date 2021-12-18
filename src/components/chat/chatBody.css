@@ -1,0 +1,31 @@
+.chatBody {
+    flex: 1;
+    overflow-y: hidden;
+    padding-right: 10px;
+}
+
+.chatBody:hover {
+    overflow-y: visible;
+    padding-right: 2px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1C1C20;
+    border-radius: 5px;
+    border: 2px solid #303032;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #1C1C20;
+    border: 2px solid #303032;
+}

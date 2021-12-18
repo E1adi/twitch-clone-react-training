@@ -1,0 +1,123 @@
+.chatInput {
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.chatInput__inputBox {
+    display: flex;
+    flex-direction: column;
+    height: 75px;
+    width: 100%;
+    border: 1px solid #303032;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.chatInput__inputBoxBottom,
+.chatInput__inputBoxTop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.chatInput__inputBoxTop {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: #1F1F23;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex: 4;
+}
+
+.chatInput__inputBoxTop>i {
+    margin-right: 10px;
+}
+
+.chatInput__inputBoxBottom {
+    background-color: #4C4C4F;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding-left: 10px;
+    flex: 6
+}
+
+
+.chatInput__inputBoxMessage {
+    flex: 1;
+}
+
+.chatInput__inputBoxBottom:focus-within {
+    outline-offset: -2px;
+    outline: 1px solid #AA70FF;
+    background-color: #000000;
+}
+
+.chatInput__inputBoxBottom>input {
+    outline: none;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+.chatInput__inputBoxBottom>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 6px;
+    width:25px;
+    height: 25px;
+}
+
+.chatInput__inputBoxBottom>div:hover {
+    cursor: pointer;
+    background-color: #707072;
+}
+
+.chatInput__actions {
+    display: flex;
+    height: 40px;
+    padding-top: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.chatInput__actions>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 10px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.chatInput__clock>i {
+    margin-right: 5px;
+}
+
+.chatInput__actionBox:hover {
+    cursor: pointer;
+    background-color: #707072;
+}
+
+.chatInput__sendBox {
+    background-color: #9147FF;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.chatInput__sendBox:hover {
+    background-color: #772CE8;
+    cursor: pointer;
+}
+
+.chatInput--Filler{
+    flex:1;
+}

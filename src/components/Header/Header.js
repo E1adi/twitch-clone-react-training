@@ -1,11 +1,11 @@
 import { Avatar } from "@material-ui/core";
-import './Header.css'
+import './header.css'
 
 const Header = () => {
     return (
         <div className='header'>
-            <div className='header___left'>
-                <img className='header___leftLogo'
+            <div className='header__left'>
+                <img className='header__leftLogo'
                     src='https://pngimg.com/uploads/twitch/twitch_PNG6.png'
                     alt='Twitch logo' />
 
@@ -14,25 +14,25 @@ const Header = () => {
                 <i className="fas fa-ellipsis-h"></i>
             </div>
 
-            <div className='header___center'>
+            <div className='header__center'>
                 <input type='text' placeholder='Search' />
-                <div className='header___centerLogoContainer'>
+                <div className='header__centerLogo'>
                     <i className='fa fa-search' />
                 </div>
             </div>
 
-            <div className='header___right'>
-                <div className='header___rightContainer'>
+            <div className='header__right'>
+                <div className='header__rightContainer'>
                     <i className='fas fa-crown' />
                     <i className='fas fa-inbox' />
                     <i className='fas fa-comment-alt' />
 
-                    <div className='header___rightBits'>
+                    <div className='header__rightBits'>
                         <i className='fas fa-gem' />
                         <h4>Get Bits</h4>
                     </div>
-
-                    <Avatar />
+                    
+                    <Avatar className='header__profile'/>
                 </div>
             </div>
 

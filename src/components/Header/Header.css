@@ -1,5 +1,5 @@
 .header {
-    height: 4rem;
+    height: 3.5rem;
     border-bottom: 1px solid black;
     display: flex;
     align-items: center;
@@ -9,36 +9,33 @@
     top: 0;
 }
 
-.header___left>i {
-    height: 3.6rem;
-}
-
-.header___left {
+.header__left {
     display: flex;
     align-items: center;
     flex: 1;
 }
 
-.header___left>i {
+.header__left>i {
+    height: 3.6rem;
     transform: rotate(90deg);
     margin: 15px;
 }
 
-.header___leftLogo {
+.header__leftLogo {
     object-fit: contain;
     height: 40px;
     margin-left: 20px;
 }
 
-.header___left>h2 {
+.header__left>h2 {
     font-size: 1.2rem;
     margin: 15px;
     font-weight: 600;
 }
 
-.header___center {
+.header__center {
     background-color: #4a4a4c;
-    height: 3.0rem;
+    height: 2.5rem;
     display: flex;
     width: 25%;
     border-radius: 8px;
@@ -46,7 +43,7 @@
     align-items: center;
 }
 
-.header___center>input {
+.header__center>input {
     outline: none;
     background-color: transparent;
     flex: 1;
@@ -55,7 +52,7 @@
     border: none;
 }
 
-.header___centerLogoContainer {
+.header__centerLogo {
     background-color: #2b2b2d;
     width: 50px;
     height: 100%;
@@ -64,32 +61,37 @@
     justify-content: center;
 }
 
-.header___right {
+.header__right {
     display: flex;
     flex: 1;
     justify-content: flex-end;
 }
 
-.header___rightContainer {
+.header__rightContainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.header___rightContainer>i, .header___rightContainer>div {
+.header__rightContainer>i, 
+.header__rightContainer>div {
     margin: 20px;
 }
 
-.header___rightBits {
+.header__rightBits {
     display: flex;
     align-items: center;
     background-color: #4a4a4c;
-    height: 3.0rem;
     padding-left: 20px;
     padding-right: 20px;
-    border-radius: 15px;
+    border-radius: 5px;
+    height: 2.5rem;
 }
 
-.header___rightBits>i {
+.header__rightBits>i {
     margin-right: 5px;
+}
+
+.header__profile {
+    transform: scale(0.8);
 }

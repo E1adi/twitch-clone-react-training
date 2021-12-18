@@ -1,0 +1,11 @@
+.chatRecord {
+    display: flex;
+    padding: 5px;
+    width: 100%;
+}
+
+.chatRecord>p {
+    word-break: break-all;
+    white-space: normal;
+    padding-right: 5px;
+}

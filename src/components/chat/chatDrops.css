@@ -1,0 +1,83 @@
+.chatDrops {
+    display: flex;
+    height: 70px;
+    border-bottom: 1px solid #303032;
+}
+
+.chatDrops__main:hover,
+.chatDrops__arrowContainer:hover {
+    background-color: #4a4a4c;
+    cursor: pointer;
+}
+
+
+.chatDrops__main {
+    display: flex;
+    height: 100%;
+    flex: 1;
+    flex-direction: row;
+}
+
+.chatDrops__mainLeft {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.chatDrops__mainLeft>div>h6 {
+    font-size: medium;
+}
+
+.chatDrops__mainLeftGift>i {
+    color: #E7CA81;
+}
+
+.chatDrops__mainLeftText>i {
+    color: #2871AE;
+}
+
+.chatDrops__mainLeftGift {
+    display: flex;
+    height: 100%;
+    width: auto;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.chatDrops__arrowContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 30px;
+}
+
+.chatDrops__mainRight {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.chatDrops__mainRight>div>i {
+    margin-right: 10px;
+}
+
+.chatDrops__mainRightRow1,
+.chatDrops__mainRightRow2 {
+    display: flex;
+    align-items: center;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+}
+
+.chatDrops__mainRightRow1>i {
+    color: #5A767E;
+}
+
+.chatDrops__mainRightRow2>i {
+    color: #DA9F77;
+}

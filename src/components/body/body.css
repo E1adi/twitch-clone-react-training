@@ -1,0 +1,12 @@
+.body {
+    display: flex;
+    flex: 1;
+    height: calc(100vh - 3rem);
+    overflow: auto;
+}
+
+.body__main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}

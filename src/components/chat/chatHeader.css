@@ -1,0 +1,26 @@
+.chatHeader {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    border-bottom: 1px solid #303032;
+    align-items: center;
+}
+
+.chatHedaer__minimize,
+.chatHeader__people {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.chatHedaer__minimize:hover,
+.chatHeader__people:hover {
+    background-color: #4a4a4c;
+    cursor: pointer;
+}

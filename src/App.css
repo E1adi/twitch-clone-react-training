@@ -3,5 +3,16 @@
   font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 13px;
+  overflow: hidden;
+}
 
+.app {
+  height: 100vh;
+  width: 100vw;
+  background-color: #18181B;
+}
+
+.app__main {
+  display: flex;
+  justify-content: flex-start;
 }

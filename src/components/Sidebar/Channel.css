@@ -16,3 +16,10 @@
     display: flex;
     align-items: center;
 }
+
+.channel>div>img {
+    object-fit: contain;
+    margin-right: 5px;
+    width: 40px;
+    border-radius: 50%;
+}

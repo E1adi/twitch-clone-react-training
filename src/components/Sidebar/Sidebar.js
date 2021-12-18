@@ -1,25 +1,32 @@
-import React from 'react'
-import Channel from './Channel'
-import './Sidebar.css'
+import React, { useState } from 'react'
+import MinimizedSidebar from './minimizedSidebar'
+import ExtendedSidebar from './extendedSidebar'
+
+const followedChannels = [
+    { name: 'SpeeDoX', followers: '1M', avatar: '' },
+    { name: 'nesi', followers: '1M', avatar: '' }
+]
+
+const recommendedChannels = [
+    { name: 'Taniuchka', followers: '1M', avatar: '' },
+    { name: 'MrAchmad', followers: '1M', avatar: '' },
+]
 
 const Sidebar = () => {
-    return (
-        <div className='sidebar'>
-            <h5>Followed Channels</h5>
-            <Channel avatar='' 
-                name='SpeeDox'
-                followers='1M' />
-            <Channel avatar='' 
-                name='Yoness'
-                followers='1K' />
-            <h5>Recomended Channels</h5>
-            <Channel avatar='' 
-                name='DoubleL'
-                followers='100K' />
+    const [minimized, setMinimized] = useState(false);
+    const toggle = () => {
+        setMinimized(!minimized);
+    }
 
-            <p class='sidebar___topShowMore'>Show More</p>
-        </div>
-    )
+    const getPartToRender = (isMininmized) => {
+        return isMininmized ?
+            <MinimizedSidebar followed={followedChannels} recommended={recommendedChannels} onToggle={toggle} /> :
+            <ExtendedSidebar followed={followedChannels} recommended={recommendedChannels} onToggle={toggle} />;
+    }
+
+    return (
+        getPartToRender(minimized)
+    );
 }
 
 export default Sidebar
